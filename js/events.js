@@ -13,7 +13,7 @@ function frameIt() {
   });
 }
 
-function pressIt() {
+function pressIt() { 
   $('input').on('keydown', function(e) {
     // let e = arguments[0];
     if ( parseInt(e.which) === 71 ) {
